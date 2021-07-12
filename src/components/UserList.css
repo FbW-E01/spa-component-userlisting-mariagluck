@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+
+
+body {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+li {
+    width: 60vw;
+    list-style-type: none;
+    font-size: 1.2em;
+    background-color: rgb(70, 69, 71);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+li:nth-child(even) {
+    background-color: #ca5100;
+
+}
+
+.description {
+    font-size: 0.8em;
+    padding-right: 20px;
+    font-variant: small-caps;
+}
+
+.data {
+    text-align: end;
+
+    
+}
+
+h3 {
+    padding: 5px;
+    padding-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-variant: small-caps;
+}
+
+p {
+    padding: 5px;
+    padding-left: 10%;
+    margin: 0;
+    
+}
+
+ /* button styling */
+.btn {
+   text-align: center;
+   cursor: pointer;
+   font-size:24px;
+   margin: 30px auto ;
+   border-radius: 6px;
+   background-color:#e76209;
+   color: white;
+   border: none;
+   padding: 20px;
+   width: 230px;
+   transition: all 0.5s;
+}
+  
+  
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+  
+.btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+  
+.btn:hover span {
+  padding-right: 25px;
+}
+  
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+
+ @media only screen and (max-width: 480px) {
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+      
+}
+ 
