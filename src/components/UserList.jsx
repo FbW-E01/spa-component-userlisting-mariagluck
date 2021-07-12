@@ -1,6 +1,6 @@
 import './UserList.css';
 import React from "react";
-// import React, { useState } from 'react';
+
 
 
 class UserList extends React.Component {
@@ -9,7 +9,6 @@ class UserList extends React.Component {
         this.state = {
             users: []
         };
-        // this.resetedState = this.state;
     }
     
     handleClick = () => {
@@ -22,9 +21,6 @@ class UserList extends React.Component {
                 console.log(e);
                 this.setState({...this.state});
             });
-            // if (this.state != []) {
-            //     return this.resetedState;
-            // }
     };
      
     
