@@ -50,7 +50,7 @@ class UserList extends React.Component {
                             <p>
                             <span className="description">street:</span> 
                             <br></br>
-                            <span className="data">{item.address.street},  {item.address.suite}, zip: {item.address.zipcode}, {item.address.city}</span>
+                            <span className="data address">{item.address.street},  {item.address.suite}, {item.address.zipcode}, {item.address.city}</span>
                             </p>
                             <p>
                             <span className="description">coordinates:</span> 
